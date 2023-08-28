@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca65a6cf-6fc7-481d-a209-f7158bd9146b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BasicType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FunctionLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LambdaFunctionMagic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +67,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BasicType">
+  <component name="RunManager" selected="Application.LambdaFunctionMagic">
     <configuration name="BasicType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.BasicType" />
       <module name="JavaPratice" />
@@ -86,6 +83,19 @@
     </configuration>
     <configuration name="ForInCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ForInCollections" />
+      <module name="JavaPratice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaFunctionMagic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LambdaFunctionMagic" />
       <module name="JavaPratice" />
       <extension name="coverage">
         <pattern>
@@ -143,34 +153,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ThreadTest" />
-      <module name="JavaPratice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.BasicType" />
+      <item itemvalue="Application.LambdaFunctionMagic" />
       <item itemvalue="Application.Strategics" />
       <item itemvalue="Application.Strategics (1)" />
       <item itemvalue="Application.ForInCollections" />
-      <item itemvalue="Application.ThreadTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaFunctionMagic" />
         <item itemvalue="Application.BasicType" />
         <item itemvalue="Application.Strategics (1)" />
         <item itemvalue="Application.Strategics" />
         <item itemvalue="Application.ForInCollections" />
-        <item itemvalue="Application.ThreadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +188,7 @@
       <workItem from="1692869529594" duration="163000" />
       <workItem from="1692869706139" duration="137000" />
       <workItem from="1692869858082" duration="1335000" />
-      <workItem from="1692965129336" duration="10428000" />
+      <workItem from="1692965129336" duration="15927000" />
     </task>
     <servers />
   </component>
