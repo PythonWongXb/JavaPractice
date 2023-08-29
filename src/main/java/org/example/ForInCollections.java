@@ -13,3 +13,8 @@ public class ForInCollections {
         System.out.println(cs);
     }
 }
+
+class Demo2 {
+    statice String demo = "1";
+
+}

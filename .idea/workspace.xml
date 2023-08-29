@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca65a6cf-6fc7-481d-a209-f7158bd9146b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LambdaFunctionMagic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ForInCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ForInCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LambdaFunctionMagic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LambdaFunctionMagic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,27 +47,27 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "GitIgnore",
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;GitIgnore&quot;,
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.LambdaFunctionMagic">
     <configuration name="BasicType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.BasicType" />
@@ -102,6 +103,11 @@
           <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +169,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LambdaFunctionMagic" />
-        <item itemvalue="Application.BasicType" />
-        <item itemvalue="Application.Strategics (1)" />
         <item itemvalue="Application.Strategics" />
+        <item itemvalue="Application.Strategics (1)" />
+        <item itemvalue="Application.LambdaFunctionMagic" />
         <item itemvalue="Application.ForInCollections" />
+        <item itemvalue="Application.BasicType" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +194,19 @@
       <workItem from="1692869529594" duration="163000" />
       <workItem from="1692869706139" duration="137000" />
       <workItem from="1692869858082" duration="1335000" />
-      <workItem from="1692965129336" duration="15927000" />
+      <workItem from="1692965129336" duration="16304000" />
+      <workItem from="1693288750063" duration="242000" />
+      <workItem from="1693289039306" duration="15000" />
+      <workItem from="1693289066707" duration="63000" />
+      <workItem from="1693289135390" duration="76000" />
+      <workItem from="1693289217521" duration="3000" />
+      <workItem from="1693289249062" duration="151000" />
+      <workItem from="1693289421278" duration="52000" />
+      <workItem from="1693289491534" duration="110000" />
+      <workItem from="1693289617743" duration="127000" />
+      <workItem from="1693289747542" duration="141000" />
+      <workItem from="1693300389062" duration="640000" />
+      <workItem from="1693301034668" duration="201000" />
     </task>
     <servers />
   </component>
