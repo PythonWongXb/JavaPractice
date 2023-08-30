@@ -36,7 +36,17 @@ public class LambdaFunctionMagic {
         return "12";
     };
     private void runAble() {}
+    interface TransformInterface {
+        A transform();
+    }
+    @FunctionalInterface
+    interface ConsumerInterface<T, U, R>{
+        R apply(T t, U u);
+    }
 
+    String demo2(String s, String s2) {
+        return s + s2;
+    }
     public static void main(String[] args) {
         LambdaFunctionMagic lambdaFunctionMagic = new LambdaFunctionMagic();
         Supplier<A> f133 = lambdaFunctionMagic::f1;
@@ -54,6 +64,12 @@ public class LambdaFunctionMagic {
         Callable<String> callable1 = lambdaFunctionMagic::callable;
         Runnable runAble1 = System.out::println;
         Runnable runAble2 = lambdaFunctionMagic::runAble;
+//        TransformInterface f122 = LambdaFunctionMagic::f1;
+
+        ConsumerInterface<String, String, String> c = lambdaFunctionMagic::demo2;
+        c = (s1, s3) -> s1 + " " + s3;
     }
+
+
 }
 

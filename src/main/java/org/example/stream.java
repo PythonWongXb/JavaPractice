@@ -74,12 +74,14 @@ class People extends Object {
         this.name =  name;
     }
 
-    public int getId() {
-        return age;
+    public Integer getId() {
+        return (Integer) age;
     }
 
     @Override
     public String toString() {
-        return String.format("id: %d, name: %s, age: %d", id, name, age);
+        Integer ids = (Integer) id;
+        Integer ages = (Integer) age;
+        return String.format("id: %d, name: %s, age: %d", ids, name, ages);
     }
 }
