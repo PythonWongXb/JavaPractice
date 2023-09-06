@@ -28,9 +28,9 @@ public class MasterFunctions {
 
 
     private static Function<Input, Output> transformCompose(Function<Input, Output> f) {
-        return f.compose(output -> {
-            System.out.println(output);
-            return output;
+        return f.compose(input -> {
+            System.out.println(input);
+            return input;
         });
     }
 
@@ -42,7 +42,8 @@ public class MasterFunctions {
     }
 
     public static void main(String[] args) {
-        Output o = f.apply(new Input());
+//        Output o = f.apply(new Input());
         Output o2 = f2.apply(new Input());
+        System.out.println(o2);
     }
 }
