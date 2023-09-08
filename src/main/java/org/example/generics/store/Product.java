@@ -1,8 +1,7 @@
-package org.example.store;
+package org.example.generics.store;
 
 import java.util.Random;
 import java.util.function.Supplier;
-import java.util.stream.Stream;
 
 public class Product {
     private final int id;

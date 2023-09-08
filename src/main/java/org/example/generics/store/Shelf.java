@@ -1,4 +1,4 @@
-package org.example.store;
+package org.example.generics.store;
 
 import java.util.ArrayList;
 import java.util.List;
