@@ -37,7 +37,8 @@ public class GenericsAndCovariance {
         // 多态：向上转型：Fruit的子类一定是Fruit
         slist2.add(new Apple());
         slist2.add(new Orange());
-        Object r = slist2.get(0);
+        slist2.add(new Fruit());
+        Orange r = (Orange)slist2.get(0);
         // 父类，不一定是Fruit，只有Object才安全
     }
 }
