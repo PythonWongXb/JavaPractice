@@ -2,10 +2,15 @@ package org.example.generics.bound;
 
 public class Hold<T> {
     T value;
-    void set (T value) {
+
+    public Hold(T value) {
         this.value = value;
     }
-    T get() {
+
+    public void set(T value) {
+        this.value = value;
+    }
+    public T get() {
         return value;
     }
 
