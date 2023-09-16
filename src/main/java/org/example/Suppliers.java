@@ -5,6 +5,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 
@@ -32,14 +33,23 @@ public class Suppliers {
                 .forEach(item -> func.accept(coll, item));
         return coll;
     }
+    public static Integer applyInteger() {
+        return 1;
+    }
+    public static Supplier<Integer> applyInteger2 = () -> 1;
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
         List<Integer> resList = Suppliers.fill(
                 List::add,
-                list,
-                () -> 1,
+                new ArrayList<>(),
+                Suppliers.applyInteger2,
                 1
         );
         System.out.println(resList);
+        List<String> resList2 = Suppliers.create(
+                ArrayList::new,
+                String::new,
+                2
+        );
+        System.out.println(resList2);
     }
 }

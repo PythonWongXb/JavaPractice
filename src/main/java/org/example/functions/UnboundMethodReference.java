@@ -11,6 +11,7 @@ class X {
         return "instance -> f";
     }
 }
+@FunctionalInterface
 interface TransformX {
     String transform(X x);
 }

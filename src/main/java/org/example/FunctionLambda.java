@@ -5,7 +5,7 @@ package org.example;
 * - 如果接口【返回】的是基本类型，则会用To来标示，例如。ToLongFunction<T>和IntToLongFunction
 * - 如果接口【返回类型】与【参数类型】相同，则会命名为Operator。UnaryOperator用与表示一个参数，BinaryOperator则
 * - 如果接口接受一个参数并返回boolean，则会被命名为Predicate
-* - 如果接口接受两个不同类型的参数，则名字中会有一个Bi，BiPredicate。
+* - 如果接口接受两个不同类型的参数，则名字中会有一个Bi，BiPredicate。Bi + cycle
 ! 12
 ? 123
 todo 12
@@ -27,12 +27,19 @@ class IBaz {
 }
 
 class LBaz {
+    static String demo() {
+        return "hello";
+    };
     long i;
     LBaz(long i) {
         this.i = i;
     }
 }
+class Help {
+    static void help() {
 
+    }
+}
 
 class DBaz {
     double i;
@@ -42,8 +49,8 @@ class DBaz {
 }
 
 public class FunctionLambda {
-    static Function<Foo, Bar>  f1 = f -> new Bar(f);
-    static Function<Foo, Bar>  f2 = Bar::new;
+    public static Function<Foo, Bar> f1 = Bar::new;
+    static Function<Foo, Bar> f2 = Bar::new;
     static IntFunction<IBaz> f22 = IBaz::new;
     static DoubleFunction<DBaz> f4 = DBaz::new;
     static ToIntFunction<IBaz> f5 = ib -> ib.i;
@@ -60,5 +67,9 @@ public class FunctionLambda {
         Long l = f8.applyAsLong(12);
         Double d = f9.applyAsDouble(12);
         int i = f10.applyAsInt(12L);
+        Supplier<String> demo = LBaz::demo;
+        System.out.println(demo.get());
+        Runnable help = Help::help;
+//        Function<Foo, Bar> f14 = FunctionLambda.f1;
     }
 }
